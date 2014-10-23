@@ -3,15 +3,43 @@
 	{
 		"selected_items":
 		[
+			[
+				"LOG",
+				"LOG_FILE"
+			],
+			[
+				"status",
+				"statusSerial"
+			],
+			[
+				"process",
+				"processSyncButton"
+			],
+			[
+				"sync",
+				"sync"
+			],
+			[
+				"digital",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"MODE_",
+				"MODE_SYNC"
+			],
+			[
+				"MODE",
+				"MODE_NONE"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "blink/blink.ino",
+			"file": "pet-health/pet-health.ino",
 			"settings":
 			{
-				"buffer_size": 710,
+				"buffer_size": 4681,
 				"line_ending": "Unix"
 			}
 		}
@@ -19,9 +47,33 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 68.0,
+		"height": 163.0,
 		"selected_items":
 		[
+			[
+				"Git pu",
+				"Git: Push"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"Git Push",
+				"Git: Push Current Branch"
+			],
+			[
+				"Git: Add",
+				"Git: Add Remote"
+			],
+			[
+				"Git: St",
+				"Git: Status"
+			],
+			[
+				"Git: Init",
+				"Git: Init"
+			],
 			[
 				"Package Control: In",
 				"Package Control: Install Package"
@@ -50,8 +102,28 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/tiger/dev/hardware/firmware",
+		"/home/tiger/dev/hardware/firmware/blink",
+		"/home/tiger/dev/hardware/firmware/pet-health"
+	],
 	"file_history":
 	[
+		"/home/tiger/dev/hardware/driver/pet-health/pet-health.py",
+		"/home/tiger/dev/workspace-4.4/dependency-analyser/pom.xml",
+		"/home/tiger/.bashrc",
+		"/home/tiger/dev/workspace-4.4/pet-health-hub/pom.xml",
+		"/home/tiger/.profile",
+		"/home/tiger/dev/workspace-4.4/pet-health-hub/target/work/jsp/org/apache/jsp/WEB_002dINF/pages/hello_jsp.java",
+		"/home/tiger/dev/workspace-4.4/pet-health-hub/src/main/webapp/WEB-INF/pages/hello.jsp",
+		"/home/tiger/dev/workspace-4.4/pet-health-hub/src/main/java/com/nttdata/pethealthhub/controller/MainController.java",
+		"/home/tiger/dev/workspace-4.4/pet-health-hub/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml",
+		"/home/tiger/dev/workspace-4.4/pet-health-hub/src/main/webapp/WEB-INF/web.xml",
+		"/home/tiger/dev/workspace-4.4/pet-health-hub/src/main/java/com/nttdata/pet-health-hub/controller/MainController.java",
+		"/home/tiger/dev/workspace-4.4/pet-health-hub/src/main/webapp/index.jsp",
+		"/home/tiger/dev/workspace-4.4/pet-health-hub/src/bindings/custombinding.xml",
+		"/home/tiger/dev/hardware/firmware/blink/blink.ino",
 		"/home/tiger/dev/arduino-1.0.5/examples/01.Basics/Blink/Blink.ino"
 	],
 	"find":
@@ -92,27 +164,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "blink/blink.ino",
+					"file": "pet-health/pet-health.ino",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 710,
+						"buffer_size": 4681,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								668,
-								668
+								4414,
+								4414
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Arduino-like IDE/Arduino.tmLanguage"
+							"syntax": "Packages/Arduino-like IDE/Arduino.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1620.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -164,6 +237,26 @@
 	{
 		"height": 0.0
 	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.git-init":
+	{
+		"height": 100.0
+	},
+	"output.git-push":
+	{
+		"height": 100.0
+	},
+	"output.git-remote":
+	{
+		"height": 260.0
+	},
+	"output.pet-health":
+	{
+		"height": 100.0
+	},
 	"output.stino_log":
 	{
 		"height": 100.0
@@ -206,7 +299,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 135.0,
+	"side_bar_width": 214.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
